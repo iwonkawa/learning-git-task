@@ -7,3 +7,6 @@ print("Lista zakupów:")
 for k, v in shopping_dict.items():
     v = [v.title() for v in v]
     print(f"Idę do, {k.title()}, kupuję tu następujące rzeczy:{v}") 
+
+total_no_of_prod = len(shopping_dict['piekarnia'] + shopping_dict['warzywniak'])
+print(f"W sumie kupuję {total_no_of_prod} produktów")
