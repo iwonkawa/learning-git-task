@@ -3,3 +3,7 @@ shopping_dict = {
   'warzywniak':['marchew', 'seler', 'rukola'],
 }
 print("Lista zakupów:")
+
+for k, v in shopping_dict.items():
+    v = [v.title() for v in v]
+    print(f"Idę do, {k.title()}, kupuję tu następujące rzeczy:{v}") 
