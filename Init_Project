@@ -10,3 +10,4 @@ for k, v in shopping_dict.items():
 
 total_no_of_prod = len(shopping_dict['piekarnia'] + shopping_dict['warzywniak'])
 print(f"W sumie kupuję {total_no_of_prod} produktów")
+print("Takie zakupy lubie najbardziej")
